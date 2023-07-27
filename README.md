@@ -29,6 +29,6 @@ The sleep health and lifestyle dataset has 400 rows and 13 columns, covering a w
 ## STEP FOLLOWED
 - Extract data from the sources and import it into the database MySQL. 
 - Apply some transformation to clean and make the data useful using SQL query.
-- Load useful data in the target for further analysis by analysts and create reports to provide insight into the business issues.
+- Load useful data in the target for further analysis by analysts and create reports to provide insight into the business problems.
 
 ## OUTCOMES
