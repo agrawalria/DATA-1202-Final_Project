@@ -1,0 +1,375 @@
+"Person ID",Gender,Age,Occupation,"BMI Category","Sleep Disorder"
+1,Male,27,"Software Engineer",Overweight,None
+2,Male,28,Doctor,Normal,None
+3,Male,28,Doctor,Normal,None
+4,Male,28,"Sales Representative",Obese,"Sleep Apnea"
+5,Male,28,"Sales Representative",Obese,"Sleep Apnea"
+6,Male,28,"Software Engineer",Obese,Insomnia
+7,Male,29,Teacher,Obese,Insomnia
+8,Male,29,Doctor,Normal,None
+9,Male,29,Doctor,Normal,None
+10,Male,29,Doctor,Normal,None
+11,Male,29,Doctor,Normal,None
+12,Male,29,Doctor,Normal,None
+13,Male,29,Doctor,Normal,None
+14,Male,29,Doctor,Normal,None
+15,Male,29,Doctor,Normal,None
+16,Male,29,Doctor,Normal,None
+17,Female,29,Nurse,"Normal Weight","Sleep Apnea"
+18,Male,29,Doctor,Normal,"Sleep Apnea"
+19,Female,29,Nurse,"Normal Weight",Insomnia
+20,Male,30,Doctor,Normal,None
+21,Male,30,Doctor,Normal,None
+22,Male,30,Doctor,Normal,None
+23,Male,30,Doctor,Normal,None
+24,Male,30,Doctor,Normal,None
+25,Male,30,Doctor,Normal,None
+26,Male,30,Doctor,Normal,None
+27,Male,30,Doctor,Normal,None
+28,Male,30,Doctor,Normal,None
+29,Male,30,Doctor,Normal,None
+30,Male,30,Doctor,Normal,None
+31,Female,30,Nurse,"Normal Weight","Sleep Apnea"
+32,Female,30,Nurse,"Normal Weight",Insomnia
+33,Female,31,Nurse,"Normal Weight",None
+34,Male,31,Doctor,Normal,None
+35,Male,31,Doctor,Normal,None
+36,Male,31,Doctor,Normal,None
+37,Male,31,Doctor,Normal,None
+38,Male,31,Doctor,Normal,None
+39,Male,31,Doctor,Normal,None
+40,Male,31,Doctor,Normal,None
+41,Male,31,Doctor,Normal,None
+42,Male,31,Doctor,Normal,None
+43,Male,31,Doctor,Normal,None
+44,Male,31,Doctor,Normal,None
+45,Male,31,Doctor,Normal,None
+46,Male,31,Doctor,Normal,None
+47,Male,31,Doctor,Normal,None
+48,Male,31,Doctor,Normal,None
+49,Male,31,Doctor,Normal,None
+50,Male,31,Doctor,Normal,"Sleep Apnea"
+51,Male,32,Engineer,Normal,None
+52,Male,32,Engineer,Normal,None
+53,Male,32,Doctor,Normal,None
+54,Male,32,Doctor,Normal,None
+55,Male,32,Doctor,Normal,None
+56,Male,32,Doctor,Normal,None
+57,Male,32,Doctor,Normal,None
+58,Male,32,Doctor,Normal,None
+59,Male,32,Doctor,Normal,None
+60,Male,32,Doctor,Normal,None
+61,Male,32,Doctor,Normal,None
+62,Male,32,Doctor,Normal,None
+63,Male,32,Doctor,Normal,None
+64,Male,32,Doctor,Normal,None
+65,Male,32,Doctor,Normal,None
+66,Male,32,Doctor,Normal,None
+67,Male,32,Accountant,"Normal Weight",None
+68,Male,33,Doctor,Normal,Insomnia
+69,Female,33,Scientist,Overweight,None
+70,Female,33,Scientist,Overweight,None
+71,Male,33,Doctor,Normal,None
+72,Male,33,Doctor,Normal,None
+73,Male,33,Doctor,Normal,None
+74,Male,33,Doctor,Normal,None
+75,Male,33,Doctor,Normal,None
+76,Male,33,Doctor,Normal,None
+77,Male,33,Doctor,Normal,None
+78,Male,33,Doctor,Normal,None
+79,Male,33,Doctor,Normal,None
+80,Male,33,Doctor,Normal,None
+81,Female,34,Scientist,Overweight,"Sleep Apnea"
+82,Female,34,Scientist,Overweight,"Sleep Apnea"
+83,Male,35,Teacher,Overweight,None
+84,Male,35,Teacher,Overweight,None
+85,Male,35,"Software Engineer","Normal Weight",None
+86,Female,35,Accountant,Normal,None
+87,Male,35,Engineer,Normal,None
+88,Male,35,Engineer,Normal,None
+89,Male,35,Engineer,Normal,None
+90,Male,35,Engineer,Normal,None
+91,Male,35,Engineer,Normal,None
+92,Male,35,Engineer,Normal,None
+93,Male,35,"Software Engineer","Normal Weight",None
+94,Male,35,Lawyer,Obese,"Sleep Apnea"
+95,Female,36,Accountant,Normal,Insomnia
+96,Female,36,Accountant,Normal,None
+97,Female,36,Accountant,Normal,None
+98,Female,36,Accountant,Normal,None
+99,Female,36,Teacher,Normal,None
+100,Female,36,Teacher,Normal,None
+101,Female,36,Teacher,Normal,None
+102,Female,36,Teacher,Normal,None
+103,Female,36,Teacher,Normal,None
+104,Male,36,Teacher,Overweight,"Sleep Apnea"
+105,Female,36,Teacher,Normal,"Sleep Apnea"
+106,Male,36,Teacher,Overweight,Insomnia
+107,Female,37,Nurse,Overweight,None
+108,Male,37,Engineer,"Normal Weight",None
+109,Male,37,Engineer,"Normal Weight",None
+110,Male,37,Lawyer,Normal,None
+111,Female,37,Accountant,Normal,None
+112,Male,37,Lawyer,Normal,None
+113,Female,37,Accountant,Normal,None
+114,Male,37,Lawyer,Normal,None
+115,Female,37,Accountant,Normal,None
+116,Female,37,Accountant,Normal,None
+117,Female,37,Accountant,Normal,None
+118,Female,37,Accountant,Normal,None
+119,Female,37,Accountant,Normal,None
+120,Female,37,Accountant,Normal,None
+121,Female,37,Accountant,Normal,None
+122,Female,37,Accountant,Normal,None
+123,Female,37,Accountant,Normal,None
+124,Female,37,Accountant,Normal,None
+125,Female,37,Accountant,Normal,None
+126,Female,37,Nurse,"Normal Weight",None
+127,Male,38,Lawyer,Normal,None
+128,Female,38,Accountant,Normal,None
+129,Male,38,Lawyer,Normal,None
+130,Male,38,Lawyer,Normal,None
+131,Female,38,Accountant,Normal,None
+132,Male,38,Lawyer,Normal,None
+133,Male,38,Lawyer,Normal,None
+134,Female,38,Accountant,Normal,None
+135,Male,38,Lawyer,Normal,None
+136,Male,38,Lawyer,Normal,None
+137,Female,38,Accountant,Normal,None
+138,Male,38,Lawyer,Normal,None
+139,Female,38,Accountant,Normal,None
+140,Male,38,Lawyer,Normal,None
+141,Female,38,Accountant,Normal,None
+142,Male,38,Lawyer,Normal,None
+143,Female,38,Accountant,Normal,None
+144,Female,38,Accountant,Normal,None
+145,Male,38,Lawyer,Normal,"Sleep Apnea"
+146,Female,38,Lawyer,Obese,"Sleep Apnea"
+147,Male,39,Lawyer,Normal,Insomnia
+148,Male,39,Engineer,Overweight,Insomnia
+149,Female,39,Lawyer,"Normal Weight",None
+150,Female,39,Accountant,"Normal Weight",None
+151,Female,39,Accountant,"Normal Weight",None
+152,Male,39,Lawyer,Normal,None
+153,Male,39,Lawyer,Normal,None
+154,Male,39,Lawyer,Normal,None
+155,Male,39,Lawyer,Normal,None
+156,Male,39,Lawyer,Normal,None
+157,Male,39,Lawyer,Normal,None
+158,Male,39,Lawyer,Normal,None
+159,Male,39,Lawyer,Normal,None
+160,Male,39,Lawyer,Normal,None
+161,Male,39,Lawyer,Normal,None
+162,Female,40,Accountant,"Normal Weight",None
+163,Female,40,Accountant,"Normal Weight",None
+164,Male,40,Lawyer,Normal,None
+165,Male,40,Lawyer,Normal,None
+166,Male,41,Lawyer,Normal,Insomnia
+167,Male,41,Engineer,"Normal Weight",None
+168,Male,41,Lawyer,Overweight,None
+169,Male,41,Lawyer,Overweight,None
+170,Male,41,Lawyer,Normal,None
+171,Male,41,Lawyer,Normal,None
+172,Male,41,Lawyer,Normal,None
+173,Male,41,Lawyer,Normal,None
+174,Male,41,Lawyer,Normal,None
+175,Male,41,Lawyer,Normal,None
+176,Male,41,Lawyer,Normal,None
+177,Male,41,Lawyer,Normal,None
+178,Male,42,Salesperson,Overweight,Insomnia
+179,Male,42,Lawyer,Normal,None
+180,Male,42,Lawyer,Normal,None
+181,Male,42,Lawyer,Normal,None
+182,Male,42,Lawyer,Normal,None
+183,Male,42,Lawyer,Normal,None
+184,Male,42,Lawyer,Normal,None
+185,Female,42,Teacher,Overweight,"Sleep Apnea"
+186,Female,42,Teacher,Overweight,"Sleep Apnea"
+187,Female,43,Teacher,Overweight,Insomnia
+188,Male,43,Salesperson,Overweight,Insomnia
+189,Female,43,Teacher,Overweight,Insomnia
+190,Male,43,Salesperson,Overweight,Insomnia
+191,Female,43,Teacher,Overweight,Insomnia
+192,Male,43,Salesperson,Overweight,Insomnia
+193,Male,43,Salesperson,Overweight,Insomnia
+194,Male,43,Salesperson,Overweight,Insomnia
+195,Male,43,Salesperson,Overweight,Insomnia
+196,Male,43,Salesperson,Overweight,Insomnia
+197,Male,43,Salesperson,Overweight,Insomnia
+198,Male,43,Salesperson,Overweight,Insomnia
+199,Male,43,Salesperson,Overweight,Insomnia
+200,Male,43,Salesperson,Overweight,Insomnia
+201,Male,43,Salesperson,Overweight,Insomnia
+202,Male,43,Engineer,Normal,Insomnia
+203,Male,43,Engineer,Normal,Insomnia
+204,Male,43,Engineer,"Normal Weight",None
+205,Male,43,Engineer,Overweight,None
+206,Male,43,Engineer,Normal,None
+207,Male,43,Engineer,Normal,None
+208,Male,43,Engineer,Normal,None
+209,Male,43,Engineer,Normal,None
+210,Male,43,Engineer,Normal,None
+211,Male,43,Engineer,Normal,None
+212,Male,43,Engineer,Normal,None
+213,Male,43,Engineer,Normal,None
+214,Male,43,Engineer,Normal,None
+215,Male,43,Engineer,Normal,None
+216,Male,43,Engineer,Normal,None
+217,Male,43,Engineer,Normal,None
+218,Male,43,Engineer,Normal,None
+219,Male,43,Engineer,Normal,"Sleep Apnea"
+220,Male,43,Salesperson,Overweight,"Sleep Apnea"
+221,Female,44,Teacher,Overweight,Insomnia
+222,Male,44,Salesperson,Overweight,Insomnia
+223,Male,44,Salesperson,Overweight,Insomnia
+224,Male,44,Salesperson,Overweight,Insomnia
+225,Female,44,Teacher,Overweight,Insomnia
+226,Male,44,Salesperson,Overweight,Insomnia
+227,Female,44,Teacher,Overweight,Insomnia
+228,Male,44,Salesperson,Overweight,Insomnia
+229,Female,44,Teacher,Overweight,Insomnia
+230,Male,44,Salesperson,Overweight,Insomnia
+231,Female,44,Teacher,Overweight,Insomnia
+232,Male,44,Salesperson,Overweight,Insomnia
+233,Female,44,Teacher,Overweight,Insomnia
+234,Male,44,Salesperson,Overweight,Insomnia
+235,Female,44,Teacher,Overweight,Insomnia
+236,Male,44,Salesperson,Overweight,Insomnia
+237,Male,44,Salesperson,Overweight,Insomnia
+238,Female,44,Teacher,Overweight,Insomnia
+239,Male,44,Salesperson,Overweight,Insomnia
+240,Male,44,Salesperson,Overweight,Insomnia
+241,Female,44,Teacher,Overweight,Insomnia
+242,Male,44,Salesperson,Overweight,Insomnia
+243,Male,44,Salesperson,Overweight,Insomnia
+244,Female,44,Teacher,Overweight,Insomnia
+245,Male,44,Salesperson,Overweight,Insomnia
+246,Female,44,Teacher,Overweight,Insomnia
+247,Male,44,Salesperson,Overweight,Insomnia
+248,Male,44,Engineer,Overweight,Insomnia
+249,Male,44,Salesperson,Overweight,None
+250,Male,44,Salesperson,Overweight,None
+251,Female,45,Teacher,Overweight,Insomnia
+252,Female,45,Teacher,Overweight,Insomnia
+253,Female,45,Teacher,Overweight,Insomnia
+254,Female,45,Teacher,Overweight,Insomnia
+255,Female,45,Teacher,Overweight,Insomnia
+256,Female,45,Teacher,Overweight,Insomnia
+257,Female,45,Teacher,Overweight,Insomnia
+258,Female,45,Teacher,Overweight,Insomnia
+259,Female,45,Teacher,Overweight,Insomnia
+260,Female,45,Teacher,Overweight,Insomnia
+261,Female,45,Teacher,Overweight,Insomnia
+262,Female,45,Teacher,Overweight,None
+263,Female,45,Teacher,Overweight,None
+264,Female,45,Manager,Overweight,None
+265,Male,48,Doctor,Obese,Insomnia
+266,Female,48,Nurse,Overweight,"Sleep Apnea"
+267,Male,48,Doctor,Obese,Insomnia
+268,Female,49,Nurse,Overweight,None
+269,Female,49,Nurse,Overweight,"Sleep Apnea"
+270,Female,49,Nurse,Overweight,"Sleep Apnea"
+271,Female,49,Nurse,Overweight,"Sleep Apnea"
+272,Female,49,Nurse,Overweight,"Sleep Apnea"
+273,Female,49,Nurse,Overweight,"Sleep Apnea"
+274,Female,49,Nurse,Overweight,"Sleep Apnea"
+275,Female,49,Nurse,Overweight,"Sleep Apnea"
+276,Female,49,Nurse,Overweight,"Sleep Apnea"
+277,Male,49,Doctor,Obese,"Sleep Apnea"
+278,Male,49,Doctor,Obese,"Sleep Apnea"
+279,Female,50,Nurse,Overweight,Insomnia
+280,Female,50,Engineer,Normal,None
+281,Female,50,Nurse,Overweight,None
+282,Female,50,Nurse,Overweight,"Sleep Apnea"
+283,Female,50,Nurse,Overweight,"Sleep Apnea"
+284,Female,50,Nurse,Overweight,"Sleep Apnea"
+285,Female,50,Nurse,Overweight,"Sleep Apnea"
+286,Female,50,Nurse,Overweight,"Sleep Apnea"
+287,Female,50,Nurse,Overweight,"Sleep Apnea"
+288,Female,50,Nurse,Overweight,"Sleep Apnea"
+289,Female,50,Nurse,Overweight,"Sleep Apnea"
+290,Female,50,Nurse,Overweight,"Sleep Apnea"
+291,Female,50,Nurse,Overweight,"Sleep Apnea"
+292,Female,50,Nurse,Overweight,"Sleep Apnea"
+293,Female,50,Nurse,Overweight,"Sleep Apnea"
+294,Female,50,Nurse,Overweight,"Sleep Apnea"
+295,Female,50,Nurse,Overweight,"Sleep Apnea"
+296,Female,50,Nurse,Overweight,"Sleep Apnea"
+297,Female,50,Nurse,Overweight,"Sleep Apnea"
+298,Female,50,Nurse,Overweight,"Sleep Apnea"
+299,Female,51,Engineer,Normal,None
+300,Female,51,Engineer,Normal,None
+301,Female,51,Engineer,Normal,None
+302,Female,51,Engineer,Normal,None
+303,Female,51,Nurse,"Normal Weight",None
+304,Female,51,Nurse,Overweight,"Sleep Apnea"
+305,Female,51,Nurse,Overweight,"Sleep Apnea"
+306,Female,51,Nurse,Overweight,"Sleep Apnea"
+307,Female,52,Accountant,Overweight,Insomnia
+308,Female,52,Accountant,Overweight,Insomnia
+309,Female,52,Accountant,Overweight,Insomnia
+310,Female,52,Accountant,Overweight,Insomnia
+311,Female,52,Accountant,Overweight,Insomnia
+312,Female,52,Accountant,Overweight,Insomnia
+313,Female,52,Engineer,Normal,None
+314,Female,52,Engineer,Normal,None
+315,Female,52,Engineer,Normal,None
+316,Female,53,Engineer,Normal,Insomnia
+317,Female,53,Engineer,Normal,None
+318,Female,53,Engineer,Normal,None
+319,Female,53,Engineer,Normal,None
+320,Female,53,Engineer,Normal,None
+321,Female,53,Engineer,Normal,None
+322,Female,53,Engineer,Normal,None
+323,Female,53,Engineer,Normal,None
+324,Female,53,Engineer,Normal,None
+325,Female,53,Engineer,Normal,None
+326,Female,53,Engineer,Normal,None
+327,Female,53,Engineer,Normal,None
+328,Female,53,Engineer,Normal,None
+329,Female,53,Engineer,Normal,None
+330,Female,53,Engineer,Normal,None
+331,Female,53,Engineer,Normal,None
+332,Female,53,Engineer,Normal,None
+333,Female,54,Engineer,Normal,None
+334,Female,54,Engineer,Normal,None
+335,Female,54,Engineer,Normal,None
+336,Female,54,Engineer,Normal,None
+337,Female,54,Engineer,Normal,None
+338,Female,54,Engineer,Normal,None
+339,Female,54,Engineer,Normal,None
+340,Female,55,Nurse,Overweight,"Sleep Apnea"
+341,Female,55,Nurse,Overweight,"Sleep Apnea"
+342,Female,56,Doctor,"Normal Weight",None
+343,Female,56,Doctor,"Normal Weight",None
+344,Female,57,Nurse,Overweight,None
+345,Female,57,Nurse,Overweight,"Sleep Apnea"
+346,Female,57,Nurse,Overweight,"Sleep Apnea"
+347,Female,57,Nurse,Overweight,"Sleep Apnea"
+348,Female,57,Nurse,Overweight,"Sleep Apnea"
+349,Female,57,Nurse,Overweight,"Sleep Apnea"
+350,Female,57,Nurse,Overweight,"Sleep Apnea"
+351,Female,57,Nurse,Overweight,"Sleep Apnea"
+352,Female,57,Nurse,Overweight,"Sleep Apnea"
+353,Female,58,Nurse,Overweight,"Sleep Apnea"
+354,Female,58,Nurse,Overweight,"Sleep Apnea"
+355,Female,58,Nurse,Overweight,"Sleep Apnea"
+356,Female,58,Nurse,Overweight,"Sleep Apnea"
+357,Female,58,Nurse,Overweight,"Sleep Apnea"
+358,Female,58,Nurse,Overweight,"Sleep Apnea"
+359,Female,59,Nurse,Overweight,None
+360,Female,59,Nurse,Overweight,None
+361,Female,59,Nurse,Overweight,"Sleep Apnea"
+362,Female,59,Nurse,Overweight,"Sleep Apnea"
+363,Female,59,Nurse,Overweight,"Sleep Apnea"
+364,Female,59,Nurse,Overweight,"Sleep Apnea"
+365,Female,59,Nurse,Overweight,"Sleep Apnea"
+366,Female,59,Nurse,Overweight,"Sleep Apnea"
+367,Female,59,Nurse,Overweight,"Sleep Apnea"
+368,Female,59,Nurse,Overweight,"Sleep Apnea"
+369,Female,59,Nurse,Overweight,"Sleep Apnea"
+370,Female,59,Nurse,Overweight,"Sleep Apnea"
+371,Female,59,Nurse,Overweight,"Sleep Apnea"
+372,Female,59,Nurse,Overweight,"Sleep Apnea"
+373,Female,59,Nurse,Overweight,"Sleep Apnea"
+374,Female,59,Nurse,Overweight,"Sleep Apnea"
