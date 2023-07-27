@@ -21,12 +21,14 @@ The sleep health and lifestyle dataset has 400 rows and 13 columns, covering a w
 - Daily Steps: The number of steps the person takes per day.
 - Sleep Disorder: The presence or absence of a sleep disorder in the person (None, Insomnia, Sleep Apnea-breathing pause while sleeping).
 ### Key Feature of Dataset:
-- Sleep Metric: Explore sleep duration, quality, and factors influencing sleep patterns.
-- Health: Examine blood pressure and heart rate measurements.
-- Lifestyle Factors: Analyze physical activity levels, stress levels, and BMI categories.
+- Sleep Metric
+- Cardiovascular Health
+- Lifestyle Factors
 - Sleep disorder Analysis
 
 ## STEP FOLLOWED
 - Extract data from the sources and import it into the database MySQL. 
 - Apply some transformation to clean and make the data useful using SQL query.
-- Load useful data in the target for further analysis by analysts and create reports to provide insight about the business issues.
+- Load useful data in the target for further analysis by analysts and create reports to provide insight into the business issues.
+
+## OUTCOMES
