@@ -1,0 +1,28 @@
+Throughout the project I have learned how different factor affect the sleep pattern and provide me insight about the relationship between sleep duration, sleep quality, gender, occupation, sleep disorders, etc.
+
+What I’ve learned –
+
+- Aggregation and group by helped to calculate average of calculative variable like average age, average sleep    duration, average sleep quality, and other variables for each unique combination of Gender, Occupation and Sleep disorder which help to analyse data as per group and compare the data between different groups.
+
+- JOIN helped me to join both table on primary and foreign keys and helped me to investigate data as a whole and provide the insight about many other factors like each group fitness level and average daily steps and many other metrics.
+
+- After joining and aggregating the data I can investigate the data in multi-dimensional way, able to analyse if there is any outlier and how different occupation at what age gives it time in physical activity and how it is affecting their health and sleep.
+------------------------------------------------------------------------------------------------------------
+
+Challenges Faced –
+
+- I took time in checking all the data is complete and inconsistence like if there is any duplicate, null, blanks, zeroes in the dataset.
+ 
+- After analysing the data very well and after consuming much time I am able to find a outlier for a female Engineer who doesn’t have any sleep order and its physical activity is very low.
+
+- I must be very cautious while deriving any conclusion as there are multi-dimensional relationship data.
+----------------------------------------------------------------------------------------------------------------
+
+What would I do differently next –
+
+- I will try to visualise data so that I can get to know about the outlier and performance of each occupation and to get more insights from the data.
+
+- I will try to collect more data or will add more data source like best time in a day they fell more relaxed while sleeping or time duration of there holidays which provide more insight about their sleep habits and health.
+
+- I will try to do more validation of data with the help of statistics which provide me more balanced data.
+
