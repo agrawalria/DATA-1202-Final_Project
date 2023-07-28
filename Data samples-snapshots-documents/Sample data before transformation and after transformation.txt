@@ -1,0 +1,77 @@
+Sample of dataset before transformation –
+From DIM Table -
+-select * from dim_sleep_health_lifestyle;
+
+# Person ID	Gender	Age	Occupation	BMI Category	Sleep Disorder
+1	Male	27	Software Engineer	Overweight	None
+2	Male	28	Doctor	Normal	None
+3	Male	28	Doctor	Normal	None
+4	Male	28	Sales Representative	Obese	Sleep Apnea
+5	Male	28	Sales Representative	Obese	Sleep Apnea
+6	Male	28	Software Engineer	Obese	Insomnia
+7	Male	29	Teacher	Obese	Insomnia
+8	Male	29	Doctor	Normal	None
+9	Male	29	Doctor	Normal	None
+10	Male	29	Doctor	Normal	None
+11	Male	29	Doctor	Normal	None
+12	Male	29	Doctor	Normal	None
+13	Male	29	Doctor	Normal	None
+14	Male	29	Doctor	Normal	None
+15	Male	29	Doctor	Normal	None
+16	Male	29	Doctor	Normal	None
+17	Female	29	Nurse	Normal Weight	Sleep Apnea
+18	Male	29	Doctor	Normal	Sleep Apnea
+19	Female	29	Nurse	Normal Weight	Insomnia
+
+
+From FACT Table –
+-select * from fact_sleep_health_lifestyle;
+
+# Person_ID	Sleep_Duration	Quality_of_Sleep	Physical_Activity_Level	Stress_Level	Upper_Blood_Pressure	Lower_Blood_Pressure	Heart_Rate	Daily_Steps
+1	6.1	6	42	6	126	83	77	4200
+2	6.2	6	60	8	125	80	75	10000
+3	6.2	6	60	8	125	80	75	10000
+4	5.9	4	30	8	140	90	85	3000
+5	5.9	4	30	8	140	90	85	3000
+6	5.9	4	30	8	140	90	85	3000
+7	6.3	6	40	7	140	90	82	3500
+8	7.8	7	75	6	120	80	70	8000
+----------------------------------------------------------------------------------------------------------------
+
+Sample of dataset After transformation –
+From View –
+-select * from sleep_health_lifestyle_data_foranalyses;
+
+# Gender	Occupation	Sleep Disorder	Avg_Sleep_Duration	Avg_Qulty_sleep	Avg_Age	Avg_Physcl_Act_lvl	Avg_Stress_Lvl	Avg_Dly_Stps
+Male	Software Engineer	None	6.1	6.0000	27.0000	42.0000	6.0000	4200.0000
+Male	Doctor	None	6.903225806451613	6.5000	30.9839	53.4677	7.0000	6903.2258
+Male	Sales Representative	Sleep Apnea	5.9	4.0000	28.0000	30.0000	8.0000	3000.0000
+Male	Software Engineer	Insomnia	5.9	4.0000	28.0000	30.0000	8.0000	3000.0000
+Male	Teacher	Insomnia	6.3	6.0000	29.0000	40.0000	7.0000	3500.0000
+Female	Nurse	Sleep Apnea	6.45	5.0000	29.5000	37.5000	7.0000	4050.0000
+Male	Doctor	Sleep Apnea	6.85	6.5000	30.0000	52.5000	7.0000	8000.0000
+Female	Nurse	Insomnia	6.45	5.0000	29.5000	37.5000	7.0000	4050.0000
+Female	Nurse	None	7.5	7.6667	39.6667	63.3333	4.6667	6933.3333
+Male	Engineer	None	7.595238095238097	8.0000	39.6667	77.1429	4.5238	7142.8571
+Male	Accountant	None	7.2	8.0000	32.0000	50.0000	6.0000	7000.0000
+Male	Doctor	Insomnia	6	6.0000	33.0000	30.0000	8.0000	5000.0000
+Female	Scientist	None	6.2	6.0000	33.0000	50.0000	6.0000	5500.0000
+Female	Scientist	Sleep Apnea	5.8	4.0000	34.0000	32.0000	8.0000	5200.0000
+Male	Teacher	None	6.7	7.0000	35.0000	40.0000	5.0000	5600.0000
+Male	Software Engineer	None	7.5	8.0000	35.0000	60.0000	5.0000	8000.0000
+Female	Accountant	None	7.16	8.0000	37.1200	60.0000	4.0000	7000.0000
+Male	Lawyer	Sleep Apnea	7.4	7.0000	35.0000	60.0000	5.0000	3300.0000
+Female	Accountant	Insomnia	7.2	8.0000	36.0000	60.0000	4.0000	7000.0000
+Female	Teacher	None	7.159999999999999	8.0000	36.0000	60.0000	4.0000	7000.0000
+Male	Teacher	Sleep Apnea	6.6	5.0000	36.0000	35.0000	7.0000	4800.0000
+Female	Teacher	Sleep Apnea	7.2	8.0000	36.0000	60.0000	4.0000	7000.0000
+Male	Teacher	Insomnia	6.6	5.0000	36.0000	35.0000	7.0000	4800.0000
+Female	Nurse	None	7.083333333333333	7.5000	51.8333	74.5000	5.1667	7533.3333
+Male	Engineer	None	7.449999999999999	7.5000	39.5000	64.2500	5.2500	6750.0000
+Male	Lawyer	None	7.448717948717947	8.0000	39.5128	72.3077	5.0000	8000.0000
+Male	Lawyer	Sleep Apnea	7.1	8.0000	38.0000	60.0000	5.0000	8000.0000
+Female	Lawyer	Sleep Apnea	7.4	7.0000	38.0000	60.0000	5.0000	3300.0000
+Male	Lawyer	Insomnia	7.4	8.0000	40.0000	75.0000	5.0000	8000.0000
+Male	Engineer	Insomnia	6.65	6.0000	41.5000	42.5000	7.0000	4500.0000
+Female	Lawyer	None	6.9	7.0000	39.0000	50.0000	6.0000	5500.0000
+
