@@ -34,7 +34,7 @@ The sleep health and lifestyle dataset has 400 rows and 13 columns, covering a w
 ## OUTCOMES
 Throughout the project, I have learned how different factors affect sleep patterns and provide me insight into the relationship between sleep duration, sleep quality, gender, occupation, sleep disorders, etc.
 
-# What I’ve learned –
+### What I’ve learned –
 
 - Aggregation and group by helped to calculate average of calculative variable like average age, average sleep    duration, average sleep quality, and other variables for each unique combination of Gender, Occupation and Sleep disorder which help to analyse data as per group and compare the data between different groups.
 
@@ -42,7 +42,7 @@ Throughout the project, I have learned how different factors affect sleep patter
 
 - After joining and aggregating the data I can investigate the data in multi-dimensional way, able to analyse if there is any outlier and how different occupation at what age gives it time in physical activity and how it is affecting their health and sleep.
 
-# Challenges Faced –
+### Challenges Faced –
 
 - I took time in checking all the data is complete and inconsistence like if there is any duplicate, null, blanks, zeroes in the dataset.
  
@@ -50,7 +50,7 @@ Throughout the project, I have learned how different factors affect sleep patter
 
 - I must be very cautious while deriving any conclusion as there are multi-dimensional relationship data.
 
-# What would I do differently next –
+### What would I do differently next –
 
 - I will try to visualise data so that I can get to know about the outlier and performance of each occupation and to get more insights from the data.
 
@@ -58,7 +58,7 @@ Throughout the project, I have learned how different factors affect sleep patter
 
 - I will try to do more validation of data with the help of statistics which provide me more balanced data.
 
-# Insight
+### Insight
 -	Male Software Engineers whose sleep duration is less than 6.1 and quality of sleep is less than 6.1 have insomnia. The other factor that we can see is the average low physical activity of around 30, high stress level of around 8, and fewer daily steps of around 3000.
 -	The occupation which has a low physical activity level and low Daily Steps has more chances of having sleep disorders A software Engineer with 3000 daily steps and 30 physical activity level has Insomnia and a teacher with 3500 daily steps and 40 physical activities has Insomnia and Nurse with 4050 daily steps and 37.50 Physical activity level has Sleep Apnea and Insomnia.
 -	Each Occupation with the average age range of 38 to 49 has Sleep Apnea (breathing issue while sleeping) while the Ages 28-53 has Insomnia. However, we can see that people aged 27-56 don’t have any sleep disorders because their physical activity level is high around 40-90. 
