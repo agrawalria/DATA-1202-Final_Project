@@ -1,2 +1,0 @@
-select * from dim_sleep_health_lifestyle;
-select * from fact_sleep_health_lifestyle;
