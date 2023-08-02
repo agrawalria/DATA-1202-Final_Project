@@ -1,4 +1,4 @@
-```DATA LOADING SQL
+```sql
 Create View Sleep_health_lifestyle_data_ForAnalyses As
 select dim.Gender
 ,dim.Occupation
