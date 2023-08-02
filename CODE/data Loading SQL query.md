@@ -1,4 +1,5 @@
 ```sql
+----To create new table/view after transformation-----
 Create View Sleep_health_lifestyle_data_ForAnalyses As
 select dim.Gender
 ,dim.Occupation
@@ -14,7 +15,6 @@ join fact_sleep_health_lifestyle fact
 on dim.`Person ID` = fact.Person_ID
 group by dim.Gender, dim.Occupation, dim.`Sleep Disorder`, dim.`BMI Category`;
 
-
-
+----------To check data is available in created table/view------
 select * from sleep_health_lifestyle_data_foranalyses; --To see the records in View
 ```
