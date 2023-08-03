@@ -4,24 +4,24 @@
 -	Created 2 tables `dim_sleep_health_lifestyle` and `fact_sleep_health_lifestyle` and done some transformation like, joining both tables which I have mentioned and aggregating some of the columns which is present in fact and Dim tables with average function and then grouping on columns in dim tables using group by, as shown in below query.
 
 Query -
-
+```sql
 select dim.Gender
 
-,dim.Occupation
-
-,dim.`Sleep Disorder`
-
-,avg(fact.sleep_Duration)
-
-,avg(fact.Quality_of_Sleep) 
-
-,avg(dim.Age)
-
-,avg(fact.Physical_Activity_Level)
-
-,avg(fact.Stress_Level)
-
-,avg(fact.Daily_Steps)
+      ,dim.Occupation
+      
+      ,dim.`Sleep Disorder`
+      
+      ,avg(fact.sleep_Duration)
+      
+      ,avg(fact.Quality_of_Sleep) 
+      
+      ,avg(dim.Age)
+      
+      ,avg(fact.Physical_Activity_Level)
+      
+      ,avg(fact.Stress_Level)
+      
+      ,avg(fact.Daily_Steps)
 
 from dim_sleep_health_lifestyle dim
 
@@ -30,6 +30,7 @@ join fact_sleep_health_lifestyle fact
 on dim.`Person ID` = fact.Person_ID
 
 group by dim.Gender,dim.Occupation,dim.`Sleep Disorder`,dim.`BMI Category`;
+```
 
 ![image](https://github.com/agrawalria/DATA-1202-Final_Project/assets/70374978/f8fc48cd-8119-44aa-a332-e88891f61350)
 
