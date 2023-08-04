@@ -1,4 +1,18 @@
 # DATA-1202-Final_Project
+
+## Assignment details
+DATA 1202 - DATA ANALYSIS TOOL ANALYTICS 🔬:
+
+INSTRUCTOR - ANTHONY RIDDING :teacher:
+
+ASSIGNMENT - 5 (DATA ARCHIVE) 🗃️
+
+NAME - RIA AGRAWAL 👩‍🎓
+
+STUDENT ID - 100853663 🧑‍🎨
+
+EMAIL ID - RIA.AGRAWAL@DCMAIL.CA 📧
+
 ## About Project
 This is a DATA-1202 Project where we will take 2 datasets through which we analyze the relationship between sleep, health, and lifestyle and how they are affecting each other.
 
