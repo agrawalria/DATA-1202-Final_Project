@@ -1,4 +1,4 @@
-# DATA-1202-Final_Project
+# DATA-1202-Data_Archive_Project
 
 ## Assignment details
 DATA 1202 - DATA ANALYSIS TOOL ANALYTICS 🔬:
